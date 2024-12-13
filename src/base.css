@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom fonts */
+@font-face {
+  font-family: 'NunitoSans_7pt-Bold';
+  src: url('/src/assets/fonts/NunitoSans_7pt-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NunitoSans_7pt-Regular';
+  src: url('/src/assets/fonts/NunitoSans_7pt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
