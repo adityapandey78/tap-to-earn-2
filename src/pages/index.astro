@@ -4,11 +4,21 @@ import'../base.css';
 import Layout from '../layouts/Layout.astro';
 import Page1 from './Page1.jsx';
 import Page2 from './Page2.jsx';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Page3 from './Page3.jsx';
 ---
 
 <Layout>
-	<Page1 />
+  <div class="full-page">
+    <Page1 />
+    <Page2 />
+	<Page3 />
+  </div>
 </Layout>
+
+<style>
+  .full-page {
+    height: 100vh; /* Ensure the container takes full viewport height */
+    overflow-y:auto; /* Prevent individual scrollbars */
+	overflow-x:hidden;
+  }
+</style>
