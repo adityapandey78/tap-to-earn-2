@@ -4,8 +4,11 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				font1: ['NunitoSans_7pt-Bold', 'sans-serif'],
-				font2: ['NunitoSans_7pt-Regular', 'sans-serif'],
+				nunitoBold: ['NunitoSans_7pt-Bold', 'sans-serif'],
+				nunitoReg: ['NunitoSans_7pt-Regular', 'sans-serif'],
+			},
+			colors:{
+				col1:'Eaa2f3'
 			}
 		},
 	},

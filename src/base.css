@@ -16,3 +16,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.gradient-border {
+    border: 5px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-radius: 20%;
+    border-image-source: linear-gradient(to right, #DB25B1, #1077FE);
+  }
