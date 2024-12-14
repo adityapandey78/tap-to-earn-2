@@ -1,13 +1,16 @@
 import React from 'react'
 import Cardpg3 from '../components/CardPg3'
 
+//importing the assests
 import BlockChainLogo from '../assets/Our Comprehensive_icons/Blockchain Integration.webp'
 import TaptoEarnGameDev from '../assets/Our Comprehensive_icons/Tap-to-Earn Game Development.webp'
 import WhiteLabelTaptoEarn from '../assets/Our Comprehensive_icons/Earn Games.webp'
 import GameMonetizationModels from '../assets/Our Comprehensive_icons/Game Monetization Models.webp'
 import GameDesign from '../assets/Our Comprehensive_icons/Game Design.webp'
 import MarketingandCommunityBuilding from '../assets/Our Comprehensive_icons/Marketing and Community Building.webp'
-import TaptoEarnGameCloning from '../assets/Our Comprehensive_icons/Tap-to-Earn Game Cloning.webp'  
+import TaptoEarnGameCloning from '../assets/Our Comprehensive_icons/Tap-to-Earn Game Cloning.webp' 
+
+// All data stored in an array of objects
 
 const data=[
     {
@@ -58,9 +61,13 @@ const Page3 = () => {
             <p className='relative w-[70vw] font-nunitoReg font-bold text-gray-400 text-xl text-center tracking-[0] leading-9'>At Metaprolane, we offer full-fledged Tap-to-Earn Game Development Services that enable businesses to create engaging T2E crypto games with unique features.</p>
         </div>
 
-        <div id='grid-layout' className=''>
+        <div id='grid-layout' className='grid grid-cols-2 grid-rows-4 items-stretch place-content-stretch'>
            {data.map((item,index)=>(
-               <Cardpg3 key={index} data={item}/>
+               <Cardpg3 
+                        key={index} 
+                        data={item}
+                        className={`${index % 2 === 0 ? 'border-r-2 border-b-2 border-dashed  border-[#eaa2f3]' : ' border-b-2 border-dashed border-[#eaa2f3]'}
+                        ${index === data.length-1  ? 'col-span-2 !border-r-0 ' : ''}`}/>
            ))}
         </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import BannerBg from "../assets/Remaining images/Banner bg.webp";
 const page1 = () => {
   return (
-    <div className="relative w-full h-screen flex justify-start items-end sm:w-[100vw] sm:h-[100vh] md:w-[100vw] md:h-[100vh] p-2 overflow-x-hidden">
+    <div className="relative w-full h-full flex justify-start items-end sm:w-[100vw] sm:h-[100vh] md:w-[100vw] md:h-[100vh] p-2 overflow-x-hidden">
       <div className="absolute w-full h-full sm:w-[100vw] sm:h-[100vh] md:w-[100vw] md:h-[100vh] sm:overflow-auto">
         
         <img src={BannerBg.src} alt="Banner-Image" className="w-full h-full object-cover" />

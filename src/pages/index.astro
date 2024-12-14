@@ -11,14 +11,15 @@ import Page3 from './Page3.jsx';
   <div class="full-page">
     <Page1 />
     <Page2 />
-	<Page3 />
+	  <Page3 />
   </div>
 </Layout>
 
 <style>
   .full-page {
     height: 100vh; /* Ensure the container takes full viewport height */
-    overflow-y:auto; /* Prevent individual scrollbars */
-	overflow-x:hidden;
+    width: 100vw; /* Ensure the container takes full viewport width */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: auto; /* Show vertical scrollbar when needed */
   }
 </style>
