@@ -1,26 +1,9 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
-/* Custom fonts */
-@font-face {
-  font-family: 'NunitoSans_7pt-Bold';
-  src: url('/src/assets/fonts/NunitoSans_7pt-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'NunitoSans_7pt-Regular';
-  src: url('/src/assets/fonts/NunitoSans_7pt-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .gradient-border {
-    border: 5px solid;
-    border-image-slice: 1;
-    border-width: 3px;
-    border-radius: 20%;
-    border-image-source: linear-gradient(to right, #DB25B1, #1077FE);
-  }
+  border: 5px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-radius: 20%;
+  border-image-source: linear-gradient(to right, #DB25B1, #1077FE);
+  border-radius: 10px; /* Added border radius */
+}
+

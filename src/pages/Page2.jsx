@@ -16,7 +16,7 @@ const Page2 = () => {
             <h1>What Are Tap-to-Earn Games?</h1>
           </div>
 
-          <p className="relative w-full md:w-[55vw] font-nunitoReg font-bold text-[#b8b8b8] text-base md:text-l tracking-[0] leading-[2.25rem]">
+          <p className="relative w-full md:w-[55vw] font-nunitoReg font-bold text-gray-400  text-base md:text-l tracking-[0] leading-[2.25rem]">
             Tap-to-earn games are revolutionizing the gaming landscape by
             rewarding players with digital assets or cryptocurrencies for
             engaging in simple in-game activities. These games rely on intuitive
@@ -46,7 +46,7 @@ const Page2 = () => {
             Tap Into Success with our Tap-to-Earn Game Development Services!
           </h1>
 
-          <p className="relative w-full md:w-[70vw] font-nunitoReg font-bold text-[#b8b8b8] text-base md:text-xl text-center tracking-[0] leading-[2.25rem]">
+          <p className="relative w-full md:w-[70vw] font-nunitoReg font-bold text-gray-400 text-base md:text-xl text-center tracking-[0] leading-[2.25rem]">
             Tap-to-earn game development transforms gaming by allowing players
             to earn cryptocurrency with simple taps or clicks. Designed for
             seamless integration with platforms like Telegram, these games
